@@ -30,6 +30,7 @@ void main() {
 
         if (users[username] == password) {
           print("Login successful!");
+          return;
         } 
         else {
           print("Incorrect password. Please try again.");
